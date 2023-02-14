@@ -8,6 +8,7 @@ const Navbar = () => {
             <div className="links">
                 <li><Link to={'/'} >Home</Link></li>
                 <li><Link to={'/about'} >About</Link></li>
+                <li><Link to={'https://github.com/vitorconceicaovc/VCDeliveryLandingPage'} target="_blank" >Github</Link></li>
                 <li className="buttonBg" ><Link to={'/'} >Contact</Link></li>
             </div>
         </ul>

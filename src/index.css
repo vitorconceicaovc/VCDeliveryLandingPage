@@ -19,3 +19,19 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.buttonBg {
+  background-color: #4287f4;
+  padding: 7px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.404);
+}

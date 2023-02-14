@@ -1,11 +1,30 @@
 .NavbarContainer {
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 0, 0, 0.105);
+    background-color: transparent;
     width: 100%;
     height: 80px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.NavbarContainer .logo {
+    margin-left: 200px;
+    font-weight: bolder;
+    color: #363249;
+}
+
+.NavbarContainer .links {
+    margin-left: 200px;
+    font-weight: bolder;
+    display: flex;
+    margin-right: 200px;
+    gap: 20px;
+    align-items: center;
+}
+
+.NavbarContainer li {
+    color: #363249;
 }

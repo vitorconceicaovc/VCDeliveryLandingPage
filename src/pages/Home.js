@@ -1,3 +1,7 @@
+import HomeComp from '../components/HomeComp'
+
 export function Home(){
-    return <h1>Home</h1>
+    return (
+        <HomeComp />
+    )
 }

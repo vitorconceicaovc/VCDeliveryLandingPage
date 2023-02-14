@@ -1,0 +1,25 @@
+.HomeComp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.HomeComp .info .text{
+    width: 400px;
+}
+
+.HomeComp img{
+    width: 500px;
+    
+}
+
+.HomeComp h1 {
+    color: #363249;
+}
+
+.HomeComp h4 {
+    color: #878787;
+}
+
+

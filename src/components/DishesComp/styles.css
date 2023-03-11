@@ -1,0 +1,62 @@
+.DishesComp {
+    margin-top: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.DishesComp .dishes-item {
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.112);
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.DishesComp .dishes-item:hover {
+    background-color: aqua;
+    transition: all .3s ease-in-out;
+}
+
+.DishesComp .dishes-item .dishes-img {
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.DishesComp .dishes-item .dishes-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.DishesComp .dishes-item .dishes-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.DishesComp .dishes-item .dishes-price .plus{
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.DishesComp .dishes-item .dishes-price .plus:hover{
+    background-color: white;
+    color: aqua;
+}
+
+

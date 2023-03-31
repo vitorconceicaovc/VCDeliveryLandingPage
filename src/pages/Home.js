@@ -1,13 +1,17 @@
 import DishesComp from '../components/DishesComp'
+import FooterComp from '../components/Footer'
 import HomeComp from '../components/HomeComp'
-import DishesTypeComp from '../components/DishesTypeComp'
+import PhoneComp from '../components/PhoneComp'
+
+
 
 export function Home(){
     return (
         <>
             <HomeComp />
-            <DishesTypeComp />
             <DishesComp />
+            <PhoneComp />
+            <FooterComp />
         </>
         
     )

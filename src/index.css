@@ -48,3 +48,17 @@ li {
   color: #878787;
 }
 
+.btn {
+  border: none;
+    border-radius: 30px;
+    background-color: #4287f4;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+

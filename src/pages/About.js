@@ -1,3 +1,15 @@
+import AboutComp from '../components/AboutComp'
+import DishesComp from '../components/DishesComp'
+import FooterComp from '../components/Footer'
+import HomeComp from '../components/HomeComp'
+import PhoneComp from '../components/PhoneComp'
+
 export function About(){
-    return <h1>About</h1>
+    return(
+        <>
+            <AboutComp />
+            <PhoneComp />
+            <FooterComp />
+        </>
+    )
 }

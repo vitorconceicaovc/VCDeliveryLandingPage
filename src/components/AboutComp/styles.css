@@ -1,0 +1,16 @@
+.AboutComp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -200px;
+}
+
+.AboutComp img {
+    width: 300px;
+}
+
+.AboutComp .text h4{
+    text-align: justify;
+    width: 500px;
+}
